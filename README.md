@@ -20,21 +20,23 @@ A RESTful API built with **ASP.NET Core 8** to collect, store, and serve energy 
 
 ## 🛠️ Project Structure
 
+```text
 SmartEnergyMeterAPI/
 │
 ├── Controllers/
-│ └── EnergyMeterController.cs # Main API controller
+│   └── EnergyMeterController.cs       # Main API controller
 │
 ├── Models/
-│ ├── EnergyReading.cs # Database model
-│ └── EnergyReadingDto.cs # DTO for incoming POST requests
+│   ├── EnergyReading.cs               # Database model
+│   └── EnergyReadingDto.cs            # DTO for incoming POST requests
 │
 ├── Data/
-│ └── ApplicationDbContext.cs # EF Core DbContext
+│   └── ApplicationDbContext.cs        # EF Core DbContext
 │
-├── Program.cs # Application entry point
-├── SmartEnergyMeterAPI.csproj # Project file with dependencies
+├── Program.cs                         # Application entry point
+├── SmartEnergyMeterAPI.csproj         # Project file with dependencies
 └── README.md
+```
 
 yaml
 Copy code
